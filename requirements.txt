@@ -1,0 +1,35 @@
+# Core dependencies
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Document processing
+pypdf>=3.17.0
+PyMuPDF>=1.24.0
+
+# Retrieval
+rank-bm25>=0.2.2
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Backend and frontend
+fastapi>=0.100.0
+uvicorn>=0.23.0
+streamlit>=1.26.0
+requests>=2.31.0
+
+# Data processing
+pandas>=2.0.0
+networkx>=3.1
+
+# LLM clients (optional - install as needed)
+openai>=1.0.0
+# anthropic>=0.3.0
+
+# Development
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+isort>=5.12.0
+ruff>=0.0.280

@@ -1,0 +1,35 @@
+{
+  "name": "project_demonstration_benchmark",
+  "description": "Small labeled project benchmark for local regression and configuration comparisons. It is not a production-scale relevance benchmark.",
+  "documents": [
+    {
+      "doc_id": "ml_fundamentals",
+      "content": "Machine learning trains algorithms from data to make predictions or decisions."
+    },
+    {
+      "doc_id": "neural_networks",
+      "content": "Deep learning uses neural networks with multiple layers to learn representations."
+    },
+    {
+      "doc_id": "information_retrieval",
+      "content": "BM25 ranks documents using lexical term relevance while dense retrieval uses embeddings."
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "q_ml_definition",
+      "query": "What is machine learning?",
+      "relevant_doc_ids": ["ml_fundamentals"]
+    },
+    {
+      "query_id": "q_dense_and_bm25",
+      "query": "How do BM25 and dense retrieval differ?",
+      "relevant_doc_ids": ["information_retrieval"]
+    },
+    {
+      "query_id": "q_deep_learning",
+      "query": "What uses multi-layer neural networks?",
+      "relevant_doc_ids": ["neural_networks"]
+    }
+  ]
+}

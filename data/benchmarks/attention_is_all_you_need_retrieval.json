@@ -1,0 +1,44 @@
+{
+  "name": "attention_is_all_you_need_retrieval",
+  "description": "Manually labeled retrieval benchmark for the bundled Attention Is All You Need PDF. Labels were reviewed from the frozen logical-flow chunk map, not inferred from retrieval output. Negative queries deliberately have no relevant chunks.",
+  "document": "data/documents/attention-is-all-you-need.pdf",
+  "chunking": {"strategy": "recursive", "chunk_size": 512, "overlap": 128},
+  "queries": [
+    {"query_id": "lex_01", "category": "exact_lexical", "query": "scaled dot-product attention", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0032", "attention-is-all-you-need_5e7038cc_chunk_0033"]},
+    {"query_id": "lex_02", "category": "exact_lexical", "query": "multi-head attention", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0039", "attention-is-all-you-need_5e7038cc_chunk_0040"]},
+    {"query_id": "lex_03", "category": "exact_lexical", "query": "positional encodings", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0053", "attention-is-all-you-need_5e7038cc_chunk_0054"]},
+    {"query_id": "lex_04", "category": "exact_lexical", "query": "Adam optimizer warmup_steps", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0075"]},
+
+    {"query_id": "sem_01", "category": "semantic_paraphrase", "query": "Why must token order be supplied to this model?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0053"]},
+    {"query_id": "sem_02", "category": "semantic_paraphrase", "query": "How does the architecture avoid sequential computation?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0015", "attention-is-all-you-need_5e7038cc_chunk_0063"]},
+    {"query_id": "sem_03", "category": "semantic_paraphrase", "query": "How are multiple attention subspaces combined?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0040"]},
+    {"query_id": "sem_04", "category": "semantic_paraphrase", "query": "What makes the sinusoidal position representation useful beyond seen lengths?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0057"]},
+
+    {"query_id": "math_01", "category": "mathematical_technical", "query": "What operation follows division by sqrt(d_k) in scaled attention?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0032"]},
+    {"query_id": "math_02", "category": "mathematical_technical", "query": "Why are dot products scaled for large d_k?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0038"]},
+    {"query_id": "math_03", "category": "mathematical_technical", "query": "What are the Adam beta values and epsilon?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0075"]},
+    {"query_id": "math_04", "category": "mathematical_technical", "query": "What is the learning rate schedule after warmup?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0075"]},
+
+    {"query_id": "def_01", "category": "definition", "query": "What is an attention function?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0031"]},
+    {"query_id": "def_02", "category": "definition", "query": "What is self-attention?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0019"]},
+    {"query_id": "def_03", "category": "definition", "query": "What is the Transformer architecture based on?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0003", "attention-is-all-you-need_5e7038cc_chunk_0015"]},
+    {"query_id": "def_04", "category": "definition", "query": "What does label smoothing do in the training setup?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0079"]},
+
+    {"query_id": "cmp_01", "category": "comparison", "query": "How does multi-head attention differ from one attention head?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0040", "attention-is-all-you-need_5e7038cc_chunk_0041"]},
+    {"query_id": "cmp_02", "category": "comparison", "query": "Compare self-attention and recurrent layers in sequential operations.", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0063"]},
+    {"query_id": "cmp_03", "category": "comparison", "query": "How do learned positional embeddings compare with sinusoidal encodings?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0057"]},
+
+    {"query_id": "multi_01", "category": "multi_part", "query": "Describe the encoder layers and the decoder's additional attention layer.", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0025", "attention-is-all-you-need_5e7038cc_chunk_0029"]},
+    {"query_id": "multi_02", "category": "multi_part", "query": "Which optimizer was used, what were its beta values, and how long was warmup?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0075"]},
+    {"query_id": "multi_03", "category": "multi_part", "query": "Explain the projection and concatenation steps in multi-head attention.", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0039", "attention-is-all-you-need_5e7038cc_chunk_0040"]},
+
+    {"query_id": "cross_01", "category": "cross_section", "query": "How do positional encodings complement an attention-only Transformer without recurrence?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0015", "attention-is-all-you-need_5e7038cc_chunk_0053"]},
+    {"query_id": "cross_02", "category": "cross_section", "query": "How do self-attention path lengths relate to the Transformer design goal of parallelization?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0015", "attention-is-all-you-need_5e7038cc_chunk_0063"]},
+
+    {"query_id": "broad_01", "category": "broad", "query": "What are the main architectural ideas of the Transformer?", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0024", "attention-is-all-you-need_5e7038cc_chunk_0025", "attention-is-all-you-need_5e7038cc_chunk_0031"]},
+    {"query_id": "broad_02", "category": "broad", "query": "Summarize the training regime and regularization used in the paper.", "relevant_chunk_ids": ["attention-is-all-you-need_5e7038cc_chunk_0072", "attention-is-all-you-need_5e7038cc_chunk_0075", "attention-is-all-you-need_5e7038cc_chunk_0076"]},
+
+    {"query_id": "neg_01", "category": "unsupported_negative", "query": "What beam search temperature did the authors use?", "relevant_chunk_ids": []},
+    {"query_id": "neg_02", "category": "unsupported_negative", "query": "What reinforcement learning reward function trained the Transformer?", "relevant_chunk_ids": []}
+  ]
+}

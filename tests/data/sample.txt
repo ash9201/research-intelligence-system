@@ -1,0 +1,18 @@
+
+    Introduction to Machine Learning
+    
+    Machine learning is a subset of artificial intelligence that enables 
+    systems to learn and improve from experience without being explicitly programmed.
+    
+    Key Concepts
+    
+    Supervised learning involves training a model with labeled data. 
+    The model learns to map inputs to outputs based on examples.
+    
+    Unsupervised learning works with unlabeled data, finding patterns and structures.
+    
+    Applications
+    
+    Machine learning has applications in computer vision, natural language processing,
+    recommendation systems, and autonomous vehicles.
+    

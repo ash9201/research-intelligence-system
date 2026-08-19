@@ -1,0 +1,78 @@
+--- Page 1 ---
+2928590673 https://www.irctc.co.in/nget/print-ticket
+
+Electronic Reserva on Slip (ERS)-Normal User
+
+Booked From To
+
+KANPUR CENTRAL (CNB) KANPUR CENTRAL (CNB) DURG (DURG) Start Date* 07-May-2025 Departure* 17:40 07-May-2025 Arrival* 13:00 08-May-2025
+
+PNR Train No./Name Class 2928590673 18204 / BETWA EXPRESS SECOND AC (2A) Quota Distance Booking Date
+
+GENERAL (GN) 884 KM 28-Mar-2025 13:43:31 HRS Passenger Details # Name Age Gender Booking Status Current Status
+
+1. ASHUTOSH PATEL 20 M CNF/A1/22/UPPER CNF /A1/22/UPPER
+
+Acronyms: RLWL: REMOTE LOCATION WAITLIST PQWL: POOLED QUOTA WAITLIST RSWL: ROAD-SIDE WAITLIST
+
+Transac on ID: 100005689632551
+
+IR recovers only 57% of cost of travel on an average. Payment Details
+
+Ticket Fare ₹ 1,725.00
+
+IRCTC Convenience Fee (Incl. of GST) ₹ 23.60
+
+Travel Insurance Premium (Incl. of GST) ₹ 0.45
+
+Total Fare (all inclusive) ₹ 1,749.05
+
+PG Charges as applicable (Addi onal)
+
+• Beware of fraudulent customer care number. For any assistance, use only the IRCTC e- cke ng Customer care number:14646.
+
+IRCTC Convenience Fee is charged per e- cket irrespec ve of number of passengers on the cket. * The printed Departure and Arrival Times are liable to change. Please Check correct departure, arrival from Railway Sta on Enquiry or Dial 139 or SMS RAIL to 139.
+
+• This cket is booked on a personal User ID, its sale/purchase is an oﬀence u/s 143 of the Railways Act,1989. • Prescribed original ID proof is required while travelling along with SMS/ VRM/ ERS otherwise will be treated as without cket and penalized as per Railway Rules.
+
+Indian Railways GST Details: Invoice Number: PS25292859067311 Address: Indian Railways New Delhi
+
+Supplier Informa on:
+
+SAC Code: 996421 GSTIN: 07AAAGM0289C1ZL
+
+Recipient Informa on:
+
+GSTIN: NA
+
+Name: NA Address:
+
+Taxable Value: 1642
+
+CGST Rate: 2.5% CGST Amount: 0.0
+
+1 of 3 28-03-2025, 13:44
+--- Page 2 ---
+2928590673 https://www.irctc.co.in/nget/print-ticket
+
+SGST/UGST Rate: SGST/UGST Amount:
+
+IGST Rate: 5.0% IGST Amount: 82.1
+
+Total Tax: 82.10 Place of Supply: U ar Pradesh(9) State Name/Code of Supplier: Delhi/DL
+
+INSTRUCTIONS:
+
+1. Prescribed Original ID proofs are:- Voter Iden ty Card / Passport / PAN Card / Driving License / Photo ID card issued by Central / State Govt. / Public Sector Undertakings of State / Central Government ,District Administra ons , Municipal bodies and Panchayat Administra ons which are having serial number / Student Iden ty Card with photograph issued by recognized School or College for their students / Na onalized Bank Passbook with photograph /Credit Cards issued by Banks with laminated photograph/Unique Iden ﬁca on Card "Aadhaar", m-Aadhaar, e-Aadhaar. /Passenger showing the Aadhaar/Driving Licence from the "Issued Document" sec on by logging into his/her DigiLocker account considered as valid proof of iden ty. (Documents uploaded by the user i.e. the document in "Uploaded Document" sec on will not be considered as a valid proof of iden ty). 2. PNRs having fully waitlisted status will be dropped and automa c refund of the cket amount a er deduc ng the applicable CLERKAGE by Railway shall be credited to the account used for payment for booking of the cket. Passengers having fully waitlisted e- cket are not allowed to board the train. However, the names of PARTIALLY waitlisted/conﬁrmed and RAC cket passenger will appear in the chart. 3. A clerkage charge of Rs.60 per passenger plus GST for AC Classes and Rs.60 per passenger for Non AC classes will be deducted if the cket remains Waitlisted at the me of Cancella on/Char ng. 4. Passengers travelling on a fully waitlisted e- cket will be treated as Ticketless. 5. Obtain cer ﬁcate from the TTE /Conductor in case of (a) PARTIALLY waitlisted e- cket when LESS NO. OF PASSENGERS travel, (b)A.C FAILURE, (c)TRAVEL IN LOWER CLASS. This original cer ﬁcate must be sent to GGM (IT), IRCTC, Internet Ticke ng Centre, 2nd Floor, Tower-D, World Trade Centre, Nauroji Nagar, New Delhi- 110029, a er ﬁling TDR online within prescribed me for claiming refund. 6. In case, on a party e- cket or a family e- cket issued for travel of more than one passenger, some passengers have conﬁrmed reserva on and others are on RAC or wai ng list, full refund of fare, less clerkage, shall be admissible for conﬁrmed passengers also subject to the condi on that the cket shall be cancelled online or online TDR shall be ﬁled for all the passengers upto thirty minutes before the scheduled departure of the train. 7. In case train is late more than 3 hours, refund is admissible as per railway refund rules only when TDR is ﬁled by the user before the actual departure of the train at boarding sta on and passenger has not travelled. 8. In case of train cancella on on its en re run, full refund is granted automa cally by the system. However, if the train is cancelled par ally on its run or diverted and not touching boarding/des na on sta on, passengers are required to ﬁle online TDR within 72 hours of scheduled departure of the train from passengers boarding sta on. 9. Never purchase e- cket from unauthorized agents or persons using their personal IDs for commercial purposes. Such ckets are liable to be cancelled and forfeited without any refund of money, under sec on (143) of the Indian Railway Act 1989. List of authorized agents are available on www.irctc.co.in under 'Find NGet Agents' op on. 10. For detail, Rules, Refund rules, Terms & Condi ons of E-Ticke ng services, Travel Insurance facility etc. Please visit www.irctc.co.in 11. While booking this cket, you have agreed of having read the Health Protocol of Des na on State of your travel. You are again advised to clearly read the Health Protocol advisory of des na on state before start of your travel and follow them properly. 12. The FIR forms are available with on board cket checking staﬀ, train guard and train escor ng RPF/GRP staﬀ. 13. Variety of meals available in more than 1500 trains. For delivery of meal of your choice on your seat log on to www.ecatering.irctc.co.in or call 1323 Toll Free. For any sugges ons/complaints related to Catering services, contact Toll Free No. 1800-111-321 (07.00 hrs to 22.00 hrs) 14. Na onal Consumer Helpline (NCH) Toll Free Number: 1800-11-400 or 14404 15. You can book unreserved cket from UTS APP or ATVMs (Automa c Ticket Vending Machines) located in Railway Sta ons. 16. As per RBI guidelines, the refund of Ticket should be given in the same Bank account, which was used for booking. It is necessary that the Bank Account used for booking online cket should not be closed at least up to 30 days beyond the date of the journey. If accounts are found closed at the me of processing refund, the refund will be regre ed by the Bank.
+
+Customer Care:
+
+• For e- cket booking ,cancella on and refund assistance , Please contact us at 14646 / 08044647999 /08035734999 or raise query at h ps:// equery.irctc.co.in • Just dial 139 from your landline, mobile & CDMA phones for railway enquiries as well as for giving sugges ons/ﬁling complaints on Rail Madad. • For e-catering, to book and get food delivered on your train berth, please contact us at 1323 (24*7 Hrs Toll Free) or log on to www.ecatering.irctc.co.in.
+
+2 of 3 28-03-2025, 13:44
+--- Page 3 ---
+2928590673 https://www.irctc.co.in/nget/print-ticket
+
+Print ERS Without Advertisements [X]
+
+3 of 3 28-03-2025, 13:44
