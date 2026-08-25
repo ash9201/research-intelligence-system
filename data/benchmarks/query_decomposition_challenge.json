@@ -1,0 +1,168 @@
+{
+    "queries": [
+        {
+            "query_id": "decomp_01",
+            "category": "cross_section",
+            "query": "How does the choice to use a constant number of sequentially executed operations in the network's layers relate to the formula used to schedule the optimizer's learning rate?",
+            "information_needs": [
+                "constant sequential operations in self-attention",
+                "learning-rate schedule"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0062",
+                "attention-is-all-you-need_5e7038cc_chunk_0075"
+            ]
+        },
+        {
+            "query_id": "decomp_02",
+            "category": "cross_section",
+            "query": "What is the relationship between the fixed output dimensionality of the residual connections and the specific mathematical functions chosen for the sequence order injections?",
+            "information_needs": [
+                "d_model = 512 for residual connections",
+                "positional encoding dimensionality and purpose",
+                "sine/cosine positional encoding functions"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0027",
+                "attention-is-all-you-need_5e7038cc_chunk_0053",
+                "attention-is-all-you-need_5e7038cc_chunk_0054"
+            ]
+        },
+        {
+            "query_id": "decomp_03",
+            "category": "cross_section",
+            "query": "How does the maximum path length for learning long-range dependencies in this architecture compare to ByteNet, and how did the authors counteract the reduced effective resolution caused by averaging?",
+            "information_needs": [
+                "importance of path length for long-range dependencies",
+                "ByteNet path-length comparison",
+                "self-attention maximum path length",
+                "reduced resolution and Multi-Head Attention"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0016",
+                "attention-is-all-you-need_5e7038cc_chunk_0018",
+                "attention-is-all-you-need_5e7038cc_chunk_0061",
+                "attention-is-all-you-need_5e7038cc_chunk_0126"
+            ]
+        },
+        {
+            "query_id": "decomp_04",
+            "category": "multi_part",
+            "query": "What regularization dropout rate was applied to the base model, how was the learning rate modified over the course of training, and why was label smoothing incorporated despite its negative effect on perplexity?",
+            "information_needs": [
+                "base-model dropout rate",
+                "learning-rate schedule",
+                "label smoothing and its effect on perplexity/accuracy/BLEU"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0075",
+                "attention-is-all-you-need_5e7038cc_chunk_0076",
+                "attention-is-all-you-need_5e7038cc_chunk_0079"
+            ]
+        },
+        {
+            "query_id": "decomp_05",
+            "category": "multi_part",
+            "query": "What specific activation function is used in the position-wise feed-forward networks, how is the output of the multi-head attention concatenated, and why are the dot products scaled by 1/sqrt(d_k)?",
+            "information_needs": [
+                "FFN activation function",
+                "Multi-Head Attention concatenation/projection",
+                "scaled dot-product motivation"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0032",
+                "attention-is-all-you-need_5e7038cc_chunk_0033",
+                "attention-is-all-you-need_5e7038cc_chunk_0040",
+                "attention-is-all-you-need_5e7038cc_chunk_0048"
+            ]
+        },
+        {
+            "query_id": "decomp_06",
+            "category": "multi_part",
+            "query": "What hardware was used to train the base and big models, how long did the big model take to train, and why is self-attention computationally faster than recurrent layers for typical sentence representations?",
+            "information_needs": [
+                "training hardware and duration",
+                "big-model training duration",
+                "self-attention versus recurrent computational complexity"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0064",
+                "attention-is-all-you-need_5e7038cc_chunk_0074",
+                "attention-is-all-you-need_5e7038cc_chunk_0081"
+            ]
+        },
+        {
+            "query_id": "decomp_07",
+            "category": "paraphrase_heavy",
+            "query": "Which sub-word vocabulary strategy was utilized for the 36 million sentence French dataset, and what length penalty was applied to sequence lengths during the beam exploration phase?",
+            "information_needs": [
+                "WMT 2014 English-French 36M-sentence dataset and 32000 word-piece vocabulary",
+                "beam-search length penalty alpha = 0.6"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0072",
+                "attention-is-all-you-need_5e7038cc_chunk_0085"
+            ]
+        },
+        {
+            "query_id": "decomp_08",
+            "category": "cross_section",
+            "query": "How does the network prevent information from flowing backwards in the auto-regressive generation phase, and what prevents over-fitting in the sums of the embeddings?",
+            "information_needs": [
+                "decoder masking preventing positions from attending to subsequent positions",
+                "dropout applied to sums of embeddings and positional encodings"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0029",
+                "attention-is-all-you-need_5e7038cc_chunk_0030",
+                "attention-is-all-you-need_5e7038cc_chunk_0076"
+            ]
+        },
+        {
+            "query_id": "decomp_09",
+            "category": "synthesis_comparison",
+            "query": "Computationally, how does the complexity of a separable convolution compare to the specific combination of sub-layers used in the Transformer's encoder?",
+            "information_needs": [
+                "complexity of separable convolutions",
+                "comparison with the combination of self-attention and point-wise feed-forward layers"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0067",
+                "attention-is-all-you-need_5e7038cc_chunk_0068"
+            ]
+        },
+        {
+            "query_id": "decomp_10",
+            "category": "synthesis_comparison",
+            "query": "How does the performance of additive attention compare to dot-product attention when the dimensionality of the keys is large, why does unscaled dot-product attention degrade in this setting, and how does the Transformer compensate for this effect?",
+            "information_needs": [
+                "comparison of additive and dot-product attention for large d_k",
+                "reason for degradation of unscaled dot-product attention",
+                "scaling by 1/sqrt(d_k) as the compensation"
+            ],
+            "relevant_chunk_ids": [
+                "attention-is-all-you-need_5e7038cc_chunk_0035",
+                "attention-is-all-you-need_5e7038cc_chunk_0036",
+                "attention-is-all-you-need_5e7038cc_chunk_0038"
+            ]
+        },
+        {
+            "query_id": "decomp_11",
+            "category": "unsupported",
+            "query": "How does the Transformer's performance on the WMT 2014 English-to-Spanish translation task compare to the ByteNet architecture?",
+            "information_needs": [
+                "WMT 2014 English-to-Spanish performance comparison with ByteNet"
+            ],
+            "relevant_chunk_ids": []
+        },
+        {
+            "query_id": "decomp_12",
+            "category": "unsupported",
+            "query": "What specific activation function is used inside the convolutional layers of the ConvS2S baseline mentioned in the background section?",
+            "information_needs": [
+                "activation function used inside ConvS2S convolutional layers"
+            ],
+            "relevant_chunk_ids": []
+        }
+    ]
+}
